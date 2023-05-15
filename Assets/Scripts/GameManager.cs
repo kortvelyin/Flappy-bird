@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
         bird.gameObject.GetComponent<Rigidbody>().isKinematic = false;
 
         StartCoroutine(SpawnObstacles());
-        InvokeRepeating("ScoreUp", 3f,spawnDelay);
+        InvokeRepeating("ScoreUp", 4f,spawnDelay);
 
 
     }
